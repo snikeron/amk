@@ -4,13 +4,12 @@ Keyboard firmware for NRF52 and STM32.
 [tinyusb](https://github.com/hathach/tinyusb.git) was used for usb protocol handling.
 NRF5 SDK and STM32 HAL library were used for driving peripherals of the MCU.
 
-# How to build
+# How to build (using macOS, update with Windows in future)
 
 ```
 git clone https://github.com/yulei/amk.git
 cd amk
-git submodule init
-git submodule update
+git submodule update --init --recursive
 make onekey
 ```
 
